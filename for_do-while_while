@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int i = 5; i != 0; i--) {
+        for (int firstNameCount = 5; firstNameCount != 0; firstNameCount--) {
             System.out.println("Thea");
         }
         int surnameCount = 5;
@@ -12,11 +12,11 @@ public class App {
         } while (surnameCount != 0);
    
         
-        int nickName = 5;
+        int nickNameCount = 5;
 
-        while (nickName != 0) {
+        while (nickNameCount != 0) {
             System.out.println("thea");
-            nickName--;
+            nickNameCount--;
         }
     }   
 
